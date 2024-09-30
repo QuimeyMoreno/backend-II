@@ -5,10 +5,13 @@ const { userModel } = require('../../models/users.model.js')
 const router = Router()
 // configuración de los endpoint 
 
+
 const midd1 = (req, res, next) => {
     console.log('middleware')
     next()
 }
+
+
 // traer todos los usuarios
 router.get('/', midd1 , async (req, res)=>{
     try {

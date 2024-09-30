@@ -1,0 +1,74 @@
+<!--  
+
+REPASO GENERAL:
+
+*** API REST 
+Es un conjunto de definiciones y reglas que permiten que dos equipos puedan integrarse para trabajar juntos. La mejor analogía que hay para comprender ésto es que una API funge como un “contrato” entre el front y el back.
+
+
+*** EXPRES JS
+Es unframework minimalista que permitirá desarrollar servidores más complejos.
+Éste nos facilitará:
+- Utilizar diferentes rutas para las peticiones.
+- Mejorar la estructura de nuestro proyecto.
+- Manejar funcionalidades más complejas y utilización de middlewares. 
+
+
+*** MIDDLEWARE 
+Son operaciones que se ejecutan de manera intermedia entre la petición del cliente, y el servicio de nuestro servidor. 
+Hace referencia a un intermediario, siempre se ejecuta antes de llegar al endpoint que corresponde
+Podemos utilizar un middleware para:
+- Dar información sobre las consultas que se están haciendo (logs)
+- Autorizar o rechazar usuarios antes de que lleguen al endpoint (seguridad)
+- Agregar o alterar información al método req antes de que llegue al endpoint (formato)
+- Redireccionar según sea necesario (router)
+- En ciertos casos, finalizar la petición sin que llegue al endpoint (seguridad)
+
+Los middlewares se ejecutan EN ORDEN
+
+Una aplicación Express puede utilizar los siguientes tipos de middleware:
+Middleware a nivel de aplicación
+Middleware a nivel endpoint
+Middleware a nivel del Router
+Middleware de manejo de errores
+Middleware incorporado
+Middleware de terceros
+
+
+*** EXPRESS ROUTER
+Un router en express nos permitirá separar los endpoints “comunes” en entidades separadas que fungirán como “mini aplicaciones”, las cuales tomarán peticiones que concuerden con dicho endpoint y así redireccionarse a esta mini aplicación.
+
+
+*** MONGO DB
+- Base de datos no relacional orientada a documentos
+- En lugar de tablas, opta por utilizar colecciones, 
+- Cada documento que ingresamos a una colección puede tener diferente estructura
+- Puede utilizarse en modo local o en la nube
+
+
+
+*** MONGOOSE
+Mongoose es un ODM (Object Document Mapping), el cual nos permitirá definir esquemas para poder gestionar colecciones y documentos entre una aplicación de Node.js y una base de datos en MongoDB.
+Además, mongoose también nos permitirá conectar con la base de datos gestionada desde Mongo Atlas, con el fin de poder mantener la gestión de la base de datos desde la nube.
+
+
+*** CRUD
+CRUD es un acrónimo que hace referencia a las cuatro operaciones fundamentales de una base de datos:
+
+C : Create (Crear un dato, insertarlo en la base de datos)
+R : Read (Leer un dato, mostrarlo al cliente)
+U :  Update (Actualizar un dato, cambiar su información interna)
+D : Delete (Eliminar un dato, removerlo de nuestra colección
+
+
+
+
+
+
+
+
+
+
+
+
+-->
